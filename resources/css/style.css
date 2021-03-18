@@ -17,6 +17,7 @@ nav {
   color: #fff;
   width: 100%;
   padding: 30px;
+  position: sticky;
 }
 
 nav ul {
@@ -50,4 +51,67 @@ nav:visited {
 nav a:hover,
 nav a:active {
   color: #709fb0;
+}
+
+section {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+section h2 {
+  padding: 40px;
+  margin: 15px 0;
+  font-size: 34;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 2px;
+  font-weight: bolder;
+}
+
+section table {
+  width: 100%;
+  background-color: #4a47a3;
+  margin-top: 25px;
+  border-radius: 5px;
+  color: white;
+  border-collapse: collapse;
+}
+thead {
+  font-size: 20px;
+  padding: 5px;
+  background-color: #413c69;
+}
+table th {
+  border: 1px solid #fff;
+  padding: 12px;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 3px;
+}
+table td {
+  border: 1px solid #fff;
+  padding: 30px;
+  font-size: 20px;
+  text-align: left;
+}
+.code {
+  font-family: monospace;
+  font-weight: bold;
+}
+
+#specificity {
+  width: 100%;
+  background-color: #709fb0;
+  padding-bottom: 40px;
+}
+#specificity h2 {
+  color: #fff;
+}
+
+#specificity td {
+  font-size: 25px;
+}
+#specificity .info {
+  font-size: 18px;
+  text-align: center;
 }
