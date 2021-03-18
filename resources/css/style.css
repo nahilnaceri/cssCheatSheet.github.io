@@ -1,0 +1,53 @@
+/*
+Color references
+primary-color : #413c69
+secondary-color : #4a47a3
+tertiary-color : #709fb0
+*/
+
+* {
+  /* Normalising default browser styles */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #413c69;
+  color: #fff;
+  width: 100%;
+  padding: 30px;
+}
+
+nav ul {
+  width: 40%;
+  text-align: right;
+}
+nav h1,
+nav ul,
+li {
+  display: inline-block;
+}
+
+nav h1 {
+  text-align: left;
+  width: 50%;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav a,
+nav:visited {
+  text-decoration: none;
+  color: #fff;
+  padding-right: 8px;
+  text-transform: capitalize;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+nav a:hover,
+nav a:active {
+  color: #709fb0;
+}
