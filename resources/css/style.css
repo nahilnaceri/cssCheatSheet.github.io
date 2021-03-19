@@ -17,7 +17,8 @@ nav {
   color: #fff;
   width: 100%;
   padding: 30px;
-  position: sticky;
+  position: fixed;
+  top: 0;
 }
 
 nav ul {
@@ -32,6 +33,7 @@ li {
 
 nav h1 {
   text-align: left;
+
   width: 50%;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -55,12 +57,13 @@ nav a:active {
 
 section {
   width: 70%;
-  margin: 0 auto;
+  margin: 50px auto;
   text-align: center;
 }
 section h2 {
   padding: 40px;
   margin: 15px 0;
+  margin-top: 100px;
   font-size: 34;
   text-transform: uppercase;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -97,6 +100,7 @@ table td {
 .code {
   font-family: monospace;
   font-weight: bold;
+  text-align: center;
 }
 
 #specificity {
@@ -114,4 +118,15 @@ table td {
 #specificity .info {
   font-size: 18px;
   text-align: center;
+}
+
+footer {
+  background-color: #413c69;
+  padding: 25px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  letter-spacing: 4px;
 }
